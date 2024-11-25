@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    border:2px dotted green;
+    margin:10px 20px 30px 40px;
+    padding:20px 40px;
+}
+nav ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black; /* Initial color */
+    background-color: transparent; /* Initial background */
+    transition: all 2s ease-in-out; /* Transition applied */
+    padding: 5px 10px; /* For better visibility of hover effect */
+}
+
+#highlight{
+    text-decoration: underline;
+    border: 1px solid blue;
+    background-color: coral;
+    color:blueviolet;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.para-style{
+    text-align: center;
+ }
+
+ .main-image{
+    width:350px;
+ }
+
+ a:hover{
+    
+    color: chartreuse; /* Hover color */
+            background-color: aqua; /* Hover background */
+ }
